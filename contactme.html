@@ -19,8 +19,8 @@
       </ul>
     </nav>
     <main class="contact-form">
-      <form class="form">
-        <h1 class="contact">Contact Me</h1>
+      <form class="form" >
+        <h1 class="contact" id="contact">Contact Me</h1>
         <p>
           <label class="form-element" for="Name">Name: </label>
           <input id="Name" type="text" placeholder="Your name..." />
@@ -39,15 +39,12 @@
             placeholder="Your Message..."
           >
           </textarea>
-          <!-- <input id="message" type="text" rows="5"  /> -->
         </p>
-        <input
+        <button
           class="submit"
           type="submit"
           id="submit"
-          name="Submit"
-          value="Submit"
-        />
+          onclick="validate_fields()">Submit</button>
       </form>
     </main>
   </body>
