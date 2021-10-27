@@ -1,0 +1,243 @@
+/* span {
+    text-align: left;
+  } */
+.container {
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100%;
+  /* border: solid black; */
+}
+
+
+/* img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  } */
+
+@media screen and (max-width: 768px) {
+  .menubar {
+    display: inline-table;
+    /* background-color: greenyellow; */
+    justify-content: center;
+    align-self: center;
+    /* float: left; */
+    /* margin: 10px; */
+    /* padding: 40px; */
+    margin-bottom: 40px;
+  }
+
+  .menubar ul {
+    list-style: none;
+  }
+  .menubar li {
+    display: inline-block;
+  }
+
+  .menubar a {
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    width: 40px;
+    height: 60px;
+    text-decoration: none;
+    border-width: thin;
+    padding: 5px;
+    /* background-color: blueviolet;
+        color: white;
+        display: inline-flex;
+        font-weight: bold;
+        width: 100%;
+        padding: auto;
+        margin: 10px; */
+  }
+
+  .menubar a:hover {
+    color: blue;
+  }
+  .profilename {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    padding: 30px;
+    /* margin-bottom: 30px; */
+    height: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menubar {
+    display: inline-table;
+    /* background-color: greenyellow; */
+    justify-content: center;
+    align-self: center;
+    /* float: left; */
+    /* margin: 10px; */
+    /* padding: 40px; */
+    margin-bottom: 40px;
+  }
+
+  .menubar ul {
+    list-style: none;
+  }
+  .menubar li {
+    display: inline-block;
+  }
+
+  .menubar a {
+    border: 1px solid white;
+    background-color: green;
+    color: white;
+    width: 90px;
+    height: 60px;
+    text-decoration: none;
+    border-width: thin;
+    padding: 10px;
+    /* background-color: blueviolet;
+      color: white;
+      display: inline-flex;
+      font-weight: bold;
+      width: 100%;
+      padding: auto;
+      margin: 10px; */
+  }
+
+  .menubar a:hover {
+    color: blue;
+  }
+  .profilename {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    align-self: center;
+    width: 100%;
+    padding: 30px;
+    /* margin-bottom: 30px; */
+    height: 40px;
+  }
+}
+.intro {
+  display: flex;
+  align-self: right;
+  justify-content: center;
+  text-align: right;
+  margin: 10px;
+}
+
+.project-description {
+  /* display: flex; */
+  /* align-self: center; */
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+
+.project-description a {
+  color: blue;
+  font-weight: bold;
+  /* text-align: center; */
+  /* align-self: center; */
+  /* display: inline-block; */
+}
+
+.projects {
+  display: flex;
+  background-color: lightblue;
+  flex-direction: column;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.contact-form {
+  align-self: center;
+  border: 1px solid black;
+  text-align: center;
+  padding: 30px;
+  width: 50%;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.contact {
+  text-align: center;
+  width: 100%;
+  align-self: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.submit {
+  background-color: green;
+  width: 100%;
+  padding: 10px 5px;
+  border-radius: 10px;
+  /* height: 30px; */
+  color: white;
+}
+
+input[type="text"] {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  /* height: 40px; */
+  width: 100%;
+}
+
+textarea {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  width: 100%;
+  /* height: 80px; */
+}
+
+label {
+  display: inline-block;
+  padding: 6px 6px;
+  text-align: left;
+  width: 100%;
+  vertical-align: top;
+}
+
+.submit:hover {
+  background-color: blue;
+}
+
+.table-heading {
+  font-weight: bold;
+  color: blue;
+  background-color: white;
+  padding: 20px 40px;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+}
+
+.previous-work {
+  align-self: center;
+  border: 1px solid black;
+  padding: 30px;
+  width: 50%;
+}
+
+.channel {
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.blank-row {
+  line-height: 80pt;
+  background-color: black;
+}
