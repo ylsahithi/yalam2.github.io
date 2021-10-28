@@ -149,10 +149,11 @@ img {
 
 .project-description {
   /* display: flex; */
-  /* align-self: center; */
+  align-self: center;
   text-align: center;
   width: 100%;
   color: black;
+  padding: 20px;
 }
 
 .project-description a {
@@ -167,10 +168,10 @@ img {
   display: flex;
   background-color: lightgrey;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   height: 100%;
   margin: 0 auto;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -244,7 +245,13 @@ label {
   padding: 30px;
   width: 50%;
 }
-
+.previous-work a {
+  color: blue;
+  
+  /* text-align: center; */
+  /* align-self: center; */
+  /* display: inline-block; */
+}
 .channel {
   border-radius: 10px;
   margin-bottom: 10px;
