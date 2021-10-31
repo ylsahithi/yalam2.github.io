@@ -22,30 +22,32 @@
     <main class="contact-form">
       <form class="form"  action="/cgi-bin/test.cgi" name="contactme" onsubmit="return(validate());">
         <h1 class="contact" id="contact">Contact Me</h1>
+        <div class = "row">
+          <div class = "col-md-6">
+            <div class="form-group"> 
+              <label for="Name">Name:</label>
+              <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter Your Name:">
+          </div>
+          </div>
+          <div class = "row">
+            <div class = "col-md-6">
+              <div class="form-group"> 
+                <label for="Email">Email:</label>
+                <input type="text" class="form-control" id="Email" name="Email" placeholder="Enter Your Email:">
+            </div>
+            </div>
         <p>
-          <label class="form-element" for="Name">Name: </label>
-          <input id="Name" type="text" placeholder="Your name..." />
+          <div class = "row">
+            <div class = "col-md-6">
+              <div class="form-group"> 
+                <label for="Message">Message:</label>
+                <textarea type="text" rows="4" class="form-control" id="Message" name="Message" placeholder="Enter Your Message:"></textarea>
+            </div>
+            </div>
         </p>
-        <p>
-          <label class="form-element" for="Email">Email:</label>
-          <input id="Email" type="text" placeholder="Your mail..." />
-        </p>
-        <p>
-          <label class="form-element" for="Message">Message:</label>
-          <textarea
-            type="text"
-            id="Message"
-            name="Message"
-            rows="4"
-            placeholder="Your Message..."
-          >
-          </textarea>
-        </p>
-        <button
-          class="submit"
-          type="submit"
-          id="submit"
-          >Submit</button>
+          <div>
+            <button  class="submit" type="submit" id="submit" >Submit</button>
+          </div>
       </form>
     </main>
   </body>

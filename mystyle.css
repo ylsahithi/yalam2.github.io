@@ -6,10 +6,10 @@
   padding: 10px;
 }
 
-.intro-text{
+.intro-text {
   text-align: center;
   display: flex;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: large;
   line-height: 150%;
   padding: 30px;
@@ -17,12 +17,11 @@
 }
 
 img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    border: 1px solid black;
-  }
-
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
 
 @media screen and (max-width: 768px) {
   .menubar {
@@ -41,7 +40,7 @@ img {
 
   .menubar a {
     border: 1px solid white;
-    background-color: lightseagreen;
+    background-color: green;
     color: white;
     width: 40px;
     height: 60px;
@@ -85,7 +84,7 @@ img {
 
   .menubar a {
     border: 1px solid white;
-    background-color: lightseagreen;
+    background-color: green;
     color: white;
     width: 60px;
     height: 60px;
@@ -162,11 +161,12 @@ img {
 }
 
 .submit {
-  background-color: lightsteelblue;
+  background-color: lightblue;
   width: 100%;
   padding: 10px 5px;
   border-radius: 10px;
-  color: white;
+  color: black;
+  font-weight: bold;
 }
 
 input[type="text"] {
