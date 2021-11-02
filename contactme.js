@@ -1,21 +1,28 @@
-function validate(){
-    if(document.contactme.Name.value == "")
-    {
-        alert("Enter a valid name")
-        document.contactme.Name.focus();
-        return false;
-    }
-    if(document.contactme.Email.value == "")
-    {
-        alert("Enter a valid email")
-        document.contactme.Email.focus();
-        return false;
-    }
-    if(document.contactme.Message.value == "" || document.contactme.Message.length <= 5  )
-    {
-        alert("Enter a valid mesaage")
-        document.contactme.Message.focus();
-        return false;
-    }
-    return true;
+let form = document.querySelector("form");
+form.addEventListener("submit", handleSubmit);
+function handleSubmit(event) {
+  event.preventDefault();
+  let submit = document.querySelector("#submit");
+  let name = document.querySelector("#Name");
+  let Email = document.querySelector("#Email");
+  let Date = document.querySelector("#Message");
+  if (name.value == "") {
+    alert("You must enter some name to submit this form");
+    return;
+  }
+  if (Email.value == "") {
+    alert("You must enter some email to submit this form");
+    return;
+  }
+  if (Message.value == "") {
+    alert("You must enter message to submit this form");
+    return;
+  }
+  console.log("*******Form Submission*******");
+  console.log("Name:", name.value);
+  console.log("Email:", Email.value);
+  console.log("******Thank you !!!*******");
+  document.querySelector(".form > h1").innerHTML = "Thank you!";
+  submit.innerHTML = "Sent!";
+  
 }

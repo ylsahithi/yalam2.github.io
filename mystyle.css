@@ -6,7 +6,7 @@
   padding: 10px;
 }
 
-.intro-text {
+.intro-text{
   text-align: center;
   display: flex;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -17,11 +17,12 @@
 }
 
 img {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 1px solid black;
-}
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+
 
 @media screen and (max-width: 768px) {
   .menubar {
